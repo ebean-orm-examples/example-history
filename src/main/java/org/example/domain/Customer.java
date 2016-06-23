@@ -50,7 +50,7 @@ public class Customer extends BaseModel {
 
 
   public String toString() {
-    return "id:"+id+" name:"+name+" comments:"+comments +" billingAddress[ "+billingAddress+" ]";
+    return "id:"+id+" name:"+name+" comments:"+comments +" billingAddress:"+billingAddress;
   }
 
   public String getName() {

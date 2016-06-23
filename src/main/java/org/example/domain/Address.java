@@ -47,7 +47,7 @@ public class Address extends BaseModel {
   }
   
   public String toString() {
-    return id + ", " + line1 + ", " + line2 + " " + city + " " + country;
+    return id + ", " + line1 + ", " + city;
   }
 
   /**

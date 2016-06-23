@@ -19,7 +19,7 @@ public class Feature extends BaseModel {
 
   String notes;
 
-  @ManyToMany
+  @ManyToMany(mappedBy = "features")
   List<Customer> customers;
 
   public String toString() {

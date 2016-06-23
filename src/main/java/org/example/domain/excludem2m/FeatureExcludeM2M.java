@@ -19,7 +19,7 @@ public class FeatureExcludeM2M extends BaseModel {
   @Size(max = 60)
   String name;
 
-  @ManyToMany
+  @ManyToMany(mappedBy = "features")
   List<CustomerExcludeM2M> customers;
 
   public String toString() {
